@@ -1,0 +1,33 @@
+POST /login HTTP/1.1
+Host: localhost
+User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:144.0) Gecko/20100101 Firefox/144.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate, br, zstd
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 30
+Origin: http://localhost
+Connection: keep-alive
+Referer: http://localhost/
+Upgrade-Insecure-Requests: 1
+Sec-Fetch-Dest: document
+Sec-Fetch-Mode: navigate
+Sec-Fetch-Site: same-origin
+Sec-Fetch-User: ?1
+Priority: u=0, i
+
+username=hello&password=world
+HTTP/1.1 404 Not Found
+Server: nginx/1.28.0
+Date: Sun, 26 Oct 2025 04:12:10 GMT
+Content-Type: text/html
+Content-Length: 153
+Connection: keep-alive
+
+<html>
+<head><title>404 Not Found</title></head>
+<body>
+<center><h1>404 Not Found</h1></center>
+<hr><center>nginx/1.28.0</center>
+</body>
+</html>
